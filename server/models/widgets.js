@@ -1,5 +1,5 @@
-'use strict';
+'use strict'
 
-module.exports = function(Widgets) {
+module.exports = function (Widgets) {
 
-};
+}
