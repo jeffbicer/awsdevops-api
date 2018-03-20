@@ -3,7 +3,7 @@
 set -e
 CLUSTER="vpcity-api-cluster"
 IMAGE_TAG="awsdevops/api"
-SERVICE="VpcityApiService"
+SERVICE="VpcityAPIService"
 TASK_DEFINITION="awsdevops-api-task-def"
 
 IMAGE="$AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com/$IMAGE_TAG:$CIRCLE_SHA1"
